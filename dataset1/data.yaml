@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['With Helmet', 'Without Helmet']
+
+roboflow:
+  workspace: hyperlink-dosl1
+  project: motorbike-helmet-detection-zf5td
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hyperlink-dosl1/motorbike-helmet-detection-zf5td/dataset/4
